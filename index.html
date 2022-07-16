@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Layered Banner Slideshow with Mouse Effect</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://use.typekit.net/zxx0nhz.css'>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img src="https://i.ibb.co/2t4V5F5/corr-logo.png" alt="">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link good-pro" href="#">Clients
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+          <li class="nav-item good-pro">
+            <a class="nav-link" href="#">Candidates</a>
+          </li>
+          <li class="nav-item good-pro">
+            <a class="nav-link" href="#">Sectors</a>
+          </li>
+          <li class="nav-item good-pro">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item good-pro">
+            <a class="nav-link" href="#">News & Blog</a>
+          </li>
+          <li class="nav-item good-pro">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Absolute Search Box -->
+  <section class="search-banner text-white py-3 form-arka-plan" id="search-banner">
+      <div class="container py-5 my-5">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="row">
+                            <div class="col-12">
+                              <h3 class="text-white good-pro bold">Enter your job search</h3>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                   <div class="form-group">
+                                      <label for="job" class="control-label">Job Title / Keywords</label>
+                                      <input id="job" type="text" class="form-control good-pro bold" placeholder="Machine Operators">
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <label for="sector" class="control-label">Sector</label>
+                                      <select id="sector" class="form-control good-pro bold" >
+                                          <option selected>ALL</option>
+                                            <option class="level-0" value="149">Account Managment</option>
+                                            <option class="level-0" value="3">Commercial</option>
+                                            <option class="level-0" value="248">Digital Printing</option>
+                                            <option class="level-0" value="2">Driving</option>
+                                            <option class="level-0" value="197">Engineering</option>
+                                            <option class="level-0" value="131">Health Care</option>
+                                            <option class="level-0" value="4">Industrial</option>
+                                            <option class="level-0" value="133">Information Technology</option>
+                                            <option class="level-0" value="202">Logistics</option>
+                                            <option class="level-0" value="127">Machine Operator</option>
+                                            <option class="level-0" value="213">Management</option>
+                                            <option class="level-0" value="212">Manufacturing</option>
+                                            <option class="level-0" value="134">Mechanic</option>
+                                            <option class="level-0" value="152">Recruitment</option>
+                                            <option class="level-0" value="148">Sales</option>
+                                      </select>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-10">
+                                <button class="collapsible">View Advanced Search</button>
+                                <div class="collapsible-content">
+                                  <div class="row">
+                                     <div class="form-group">
+                                        <label for="location" class="control-label">Location</label>
+                                        <select id="location" class="form-control good-pro bold" >
+                                            <option selected>ALL</option>
+                                            <option class="level-0" value="19">Andover</option>
+                                            <option class="level-0" value="124">Andover Area</option>
+                                            <option class="level-0" value="86">Basingstoke</option>
+                                            <option class="level-0" value="211">Bournemouth</option>
+                                            <option class="level-0" value="229">Bristol</option>
+                                            <option class="level-0" value="22">Eastleigh</option>
+                                            <option class="level-0" value="228">Enfield</option>
+                                            <option class="level-0" value="63">Fareham</option>
+                                            <option class="level-0" value="20">Greenford</option>
+                                            <option class="level-0" value="91">Hemel Hempstead</option>
+                                            <option class="level-0" value="13">Newbury</option>
+                                            <option class="level-0" value="62">Portsmouth</option>
+                                            <option class="level-0" value="252">Reading</option>
+                                            <option class="level-0" value="145">Salisbury</option>
+                                            <option class="level-0" value="61">Southampton</option>
+                                            <option class="level-0" value="21">Swindon</option>
+                                            <option class="level-0" value="23">Tamworth</option>
+                                            <option class="level-0" value="24">West Drayton</option>
+                                            <option class="level-0" value="165">Winchester</option>
+                                        </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-2">
+                                  <button type="button" class="float-right btn pl-5 pr-5 good-pro bold search-btn">Search</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+<div class="good-pro bold lead-text text-white">Experts in Recruiting for the:</div>
+  <div class="slide-wrapper">
+    
+    <!-- Slide 1 -->
+    <div class="slide slide-1">
+        <section id="wrapper">
+          <div class="layer layer-1" data-revert="true" data-speed="0.01" style="background-image: url('https://i.ibb.co/x6ZCPrQ/background1.jpg');"></div>
+          <div class="layer layer-2" data-speed="0" style="background-image: url('https://i.ibb.co/wrR2T47/corr-circle.png');"></div>
+          <div class="layer layer-3" data-speed="0.01" style="background-image: url('https://i.ibb.co/gtZmBwX/subject1.png');"></div>
+          <div class="layer text-layer">
+            <div class="good-pro bold-italic sub-text">Industrial Sector</div>
+          </div>
+        </section>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide slide-2">
+      <section id="wrapper">
+          <div class="layer layer-1" data-revert="true" data-speed="0.01" style="background-image: url('https://i.ibb.co/KLFCxgK/background3.jpg');"></div>
+          <div class="layer layer-2" data-speed="0" style="background-image: url('https://i.ibb.co/wrR2T47/corr-circle.png');"></div>
+          <div class="layer layer-3 right" data-speed="0.01" style="background-image: url('https://i.ibb.co/yY4zytC/subject3.png');"></div>
+          <div class="layer text-layer">
+            <div class="good-pro bold-italic sub-text">Technology Sector</div>
+          </div>
+        </section>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide slide-3">
+        <section id="wrapper">
+          <div class="layer layer-1" data-revert="true" data-speed="0.01" style="background-image: url('https://i.ibb.co/t3k5dGQ/background2.jpg');"></div>
+          <div class="layer layer-2" data-speed="0" style="background-image: url('https://i.ibb.co/wrR2T47/corr-circle.png');"></div>
+          <div class="layer layer-3 right-2" data-speed="0.01" style="background-image: url('https://i.ibb.co/0K99Pk6/subject2.png');"></div>
+          <div class="layer text-layer">
+            <div class="good-pro bold-italic sub-text">Commercial Sector</div>
+          </div>
+        </section>
+    </div>
+
+      <!-- Slide 4 -->
+    <div class="slide slide-4">
+         <section id="wrapper">
+          <div class="layer layer-1" data-revert="true" data-speed="0.01" style="background-image: url('https://i.ibb.co/WgKpQYc/background4.jpg');"></div>
+          <div class="layer layer-2" data-speed="0" style="background-image: url('https://i.ibb.co/wrR2T47/corr-circle.png');"></div>
+          <div class="layer layer-3 right-3" data-speed="0.01" style="background-image: url('https://i.ibb.co/WzJ8KZy/subject4.png');"></div>
+          <div class="layer text-layer">
+            <div class="good-pro bold-italic sub-text">Driving Sector</div>
+          </div>
+        </section>
+    </div>
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
